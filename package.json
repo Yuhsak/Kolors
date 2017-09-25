@@ -1,14 +1,14 @@
 {
-  "name": "kolor",
+  "name": "Kolors",
   "version": "1.0.0",
   "description": "",
-  "main": "kolor.js",
+  "main": "kolors.js",
   "scripts": {
 	"start": "webpack",
     "compile": "babel kolors.js -o kolors.compiled.js -s inline",
     "webpack": "webpack"
   },
-  "author": "",
+  "author": "Yuhsak Inoue",
   "license": "MIT",
   "devDependencies": {
     "babel": "^6.23.0",
