@@ -6,3 +6,4 @@ webpack.config.js
 .npmignore
 .node-version
 .gitignore
+.babelrc
