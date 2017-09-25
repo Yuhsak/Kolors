@@ -44,3 +44,22 @@ console.log( kolor.rgb ) // 214182
 console.log( kolor.hsl ) // { h: 220.1910447761194, s: 60, l: 31.882352941176478 }
 
 ```
+
+## Browser Support
+
+If you want to use Kolors directly in browser, just include the `kolors.browser.js` in your html.
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type='text/javascript' src='kolor.browser.js'></script>
+		<script type='text/javascript'>
+			var kolor = new Kolor('#239cec');
+			console.log( kolor.rgb );
+			console.log( kolor.hsl );
+		</script>
+	</head>
+	<body></body>
+</html>
+```
