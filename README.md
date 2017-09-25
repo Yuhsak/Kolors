@@ -13,17 +13,15 @@ npm install kolors
 ```js
 const Kolor = require('kolors');
 
-// You can specify RGB hex color code into constructor
+// You can specify a RGB hex color code into constructor
 const kolor = new Kolor('#239cec');
 
-// or HSL color values
-/*
+/* or HSL color values.
 const kolor = new Kolor({
 	 h: 203.88059701492537,
 	 s: 84.10041841004184,
 	 l: 53.13725490196079
-});
-*/
+}); */
 
 console.log( kolor.rgb ) // 239cec
 console.log( kolor.hsl ) // { h: 203.88059701492537, s: 84.10041841004184, l: 53.13725490196079 }
@@ -47,19 +45,14 @@ console.log( kolor.hsl ) // { h: 220.1910447761194, s: 60, l: 31.882352941176478
 
 ## Browser Support
 
-If you want to use Kolors directly in browser, just include the `kolors.browser.js` in your html.
+If you want to use Kolors directly in the browser, just include `kolors.browser.js` in your html.
 
 ```html
-<!DOCTYPE html>
-<html>
-	<head>
-		<script type='text/javascript' src='kolor.browser.js'></script>
-		<script type='text/javascript'>
-			var kolor = new Kolor('#239cec');
-			console.log( kolor.rgb );
-			console.log( kolor.hsl );
-		</script>
-	</head>
-	<body></body>
-</html>
+<script src='kolor.browser.js'></script>
+
+<script>
+	var kolor = new Kolor('#239cec');
+	console.log( kolor.rgb );
+	console.log( kolor.hsl );
+</script>
 ```
