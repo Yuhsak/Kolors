@@ -1,0 +1,8 @@
+node_modules/
+color.html
+flatcolor.js
+kolors.loader.js
+webpack.config.js
+.npmignore
+.node-version
+.gitignore
