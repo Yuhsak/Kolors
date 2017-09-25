@@ -4,8 +4,8 @@
   "description": "",
   "main": "kolor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel kolor.js -o kolor.compiled.js -s inline",
+	"start": "webpack",
+    "compile": "babel kolors.js -o kolors.compiled.js -s inline",
     "webpack": "webpack"
   },
   "author": "",

@@ -1,7 +1,7 @@
 module.exports = {
-  entry: './kolor.loader.js',
+  entry: './kolors.loader.js',
   output: {
-    filename: 'kolor.browser.js'
+    filename: 'kolors.browser.js'
   },
   module: {
     loaders: [
