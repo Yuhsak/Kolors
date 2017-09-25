@@ -1,0 +1,1 @@
+window.Kolor = require('./kolor')
