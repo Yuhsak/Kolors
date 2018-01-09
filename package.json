@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "",
   "main": "kolors.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuhsak/Kolors.git"
+  },
   "scripts": {
 	"start": "webpack",
     "compile": "babel kolors.js -o kolors.compiled.js -s inline",
