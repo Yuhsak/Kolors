@@ -1,6 +1,6 @@
 {
   "name": "kolors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "kolors.js",
   "repository": {
@@ -14,6 +14,10 @@
   },
   "author": "Yuhsak Inoue",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuhsak/Kolors.git"
+  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
