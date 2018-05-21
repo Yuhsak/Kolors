@@ -1,8 +1,12 @@
 {
   "name": "kolors",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "",
   "main": "kolors.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuhsak/Kolors.git"
+  },
   "scripts": {
 	"start": "webpack",
     "compile": "babel kolors.js -o kolors.compiled.js -s inline",
@@ -10,10 +14,6 @@
   },
   "author": "Yuhsak Inoue",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yuhsak/Kolors.git"
-  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
