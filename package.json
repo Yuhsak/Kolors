@@ -8,16 +8,12 @@
     "url": "git+https://github.com/Yuhsak/Kolors.git"
   },
   "scripts": {
-	"start": "webpack",
+    "start": "webpack",
     "compile": "babel kolors.js -o kolors.compiled.js -s inline",
     "webpack": "webpack"
   },
   "author": "Yuhsak Inoue",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yuhsak/Kolors.git"
-  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",

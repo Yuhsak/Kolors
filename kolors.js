@@ -88,6 +88,13 @@ class Kolor {
 		this.rgb = hslToRgb(this.hsl)
 		return this
 	}
+	
+	get rgbDecimal() {
+		const r = parseInt(this.rgb[0] + this.rgb[1], 16)
+		const g = parseInt(this.rgb[2] + this.rgb[3], 16)
+		const b = parseInt(this.rgb[4] + this.rgb[5], 16)
+		return [r,g,b]
+	}
 
 	get value() {
 		return this.rgb
